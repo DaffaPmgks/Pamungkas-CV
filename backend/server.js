@@ -1,12 +1,14 @@
 
-// backend/server.js
 const express = require('express');
 const cors    = require('cors');
 const { educationHistory, skills, projects } = require('./data');
 
 const app = express();
 app.use(cors());
-app.use(express.json());           // ⬅️  Tambahkan ini untuk membaca body JSON
+app.use(express.json());
+
+
+
 
 // ─── ROUTES ─────────────────────────────────────────────
 // Root info
@@ -50,6 +52,6 @@ app.delete('/api/skills/:id', (req, res) => {
 });
 // ────────────────────────────────────────────────────────
 
-// *listen* SELALU diletakkan PALING BAWAH
-const PORT = 3000;
+
+
 app.listen(PORT, () => console.log(`API ready → http://localhost:${PORT}`));

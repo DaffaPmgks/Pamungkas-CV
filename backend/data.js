@@ -1,18 +1,19 @@
 // backend/data.js
 const educationHistory =[
   {
-    "id": 1,
-    "period": "2024 - Sekarang",
-    "institution": "Universitas Amikom Yogyakarta",
-    "major": "S1 - Teknik Informatika"
+    id: 1,
+    period: "2024 - Sekarang",
+    institution: "Universitas Amikom Yogyakarta",
+    major: "S1 - Teknik Informatika",
   },
   {
-    "id": 2,
-    "period": "2019 - 2022",
-    "institution": "SMA Negeri 3 Temanggung",
-    "major": "MIPA"
+    id: 2,
+    period: "2021 - 2024",
+    institution: "SMA Negeri 3 Temanggung",
+    major: "MIPA",
   }
 ];
+
 
 const skills = [
     { name: 'Vue.js',
@@ -54,22 +55,18 @@ const skills = [
   
 const projects = [
   {
-    id: 1,
-    title: 'MANCING',
-    // URL gambar representatif untuk toko online
-    image: 'mancing',
-    description: 'Platform e‑commerce dengan fitur keranjang belanja.',
-    tech: ['Vue.js', 'Express.js', 'PostgreSQL'],
-    link: '#'
+    title: 'Website Profile Company Es Kimo',
+    image: 'eskimo', // ambil dari imageMap
+    description: 'Platform profile perusahaan supplier es kristal',
+    tech: ['CodeIgniter', 'Bootstrap', 'MySQL'],
+    link: 'https://github.com/bagoongyoo/Final-Project-Web.git'
   },
   {
-    id: 2,
-    title: 'ROBLOX',
-    // URL gambar representatif untuk aplikasi manajemen tugas
-    image: 'roblox',
-    description: 'Aplikasi untuk melacak progres tugas harian.',
-    tech: ['React', 'Firebase'],
-    link: '#'
+    title: 'Aplikasi Rental Motor',
+    image: 'rental', // ambil dari imageMap
+    description: 'Aplikasi Untuk Rental Motor',
+    tech: ['C#'],
+    link: 'https://github.com/FikihRizaldi/Sewa_motor.git'
   }
 ];
 
